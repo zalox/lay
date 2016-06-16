@@ -8,7 +8,8 @@
 !*.gitkeep
 !*.html
 !*.json
-!*.jsx?
+!*.js
+!*.jsx
 !LICENSE
 
 # dir-ignore

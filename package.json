@@ -1,0 +1,16 @@
+{
+  "name": "lay",
+  "version": "1.0.0",
+  "description": "Client for toREST bittorrent server",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/A.git"
+  },
+  "keywords": ["bittorrent","torrent","rest","react","redux"],
+  "author": "zalox - Jørgen Lien Sellæg",
+  "license": "MIT"
+}

@@ -1,0 +1,27 @@
+# !ignore
+*
+!*/
+
+# whitelist
+!*.babelrc
+!*.gitignore
+!*.gitkeep
+!*.html
+!*.json
+!*.jsx?
+!LICENSE
+
+# dir-ignore
+build
+logs
+node_modules
+
+
+
+
+
+
+
+
+
+

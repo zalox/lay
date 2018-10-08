@@ -1,28 +1,2 @@
-# !ignore
-*
-!*/
-
-# whitelist
-!*.babelrc
-!*.gitignore
-!*.gitkeep
-!*.html
-!*.json
-!*.js
-!*.jsx
-!LICENSE
-
-# dir-ignore
-build
-logs
 node_modules
-
-
-
-
-
-
-
-
-
 

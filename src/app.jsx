@@ -6,20 +6,20 @@ import App from './containers/App';
 const app_div = document.getElementById('app');
 
 ReactDOM.render(
-  <AppContainer>
-    <App />
-  </AppContainer>,
-  app_div
+    <AppContainer>
+        <App />
+    </AppContainer>,
+    app_div
 );
 
 if(module.hot){
-  module.hot.accept('./App', () => {
-    const NextApp = require('./App');
-    ReactDOM.render(
-     <AppContainer>
-       <App />
-     </AppContainer>,
-     app_div
-    );
-  });
+    module.hot.accept('./App', () => {
+        const NextApp = require('./App');
+            ReactDOM.render(
+            <AppContainer>
+                <App />
+            </AppContainer>,
+            app_div
+        );
+    });
 }

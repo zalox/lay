@@ -1,11 +1,17 @@
+const prettierOptions = {
+  arrowParens: "always",
+  trailingComma: "all",
+  singleQuote: true,
+};
+
 module.exports = {
   extends: [
     'prettier',
   ],
   plugins: [
-    "prettier",
+    'prettier',
   ],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': ['error', prettierOptions],
   },
 };

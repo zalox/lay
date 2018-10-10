@@ -1,4 +1,4 @@
-#lay [![Build Status](https://travis-ci.com/zalox/lay.svg?branch=master)](https://travis-ci.com/zalox/lay)
+# lay [![Build Status](https://travis-ci.com/zalox/lay.svg?branch=master)](https://travis-ci.com/zalox/lay)
 
 ###### lay – a client for toREST bittorrent server
 

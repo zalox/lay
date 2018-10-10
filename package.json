@@ -14,7 +14,8 @@
   "author": "zalox",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint"
+    "lint": "node_modules/eslint/bin/eslint.js .",
+    "test": "yarn lint"
   },
   "devDependencies": {
     "eslint": "^5.6.1",
